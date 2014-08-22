@@ -283,6 +283,11 @@ module Prawn
         end
       end
     end
+    
+    # title for browser tab
+    def page_title(title)
+      content_for(:title){ title }
+    end
 
     # Returns the number of pages in the document
     #
