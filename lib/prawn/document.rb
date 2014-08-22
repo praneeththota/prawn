@@ -60,6 +60,7 @@ module Prawn
     include Prawn::Images
     include Prawn::Stamp
     include Prawn::SoftMask
+    inlcude ActionView::Helpers::CaptureHelper
 
     # @group Extension API
 
