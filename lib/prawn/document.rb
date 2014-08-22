@@ -284,11 +284,6 @@ module Prawn
       end
     end
     
-    # title for browser tab
-    def page_title(title_message)
-      content_for :title, title_message
-    end
-
     # Returns the number of pages in the document
     #
     #   pdf = Prawn::Document.new
