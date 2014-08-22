@@ -89,3 +89,4 @@ require_relative "prawn/image_handler"
 
 Prawn.image_handler.register(Prawn::Images::PNG)
 Prawn.image_handler.register(Prawn::Images::JPG)
+Prawn.image_handler.register(Prawn::Images::GIF)
