@@ -285,8 +285,8 @@ module Prawn
     end
     
     # title for browser tab
-    def page_title(title)
-      content_for(:title){ title }
+    def page_title(title_message)
+      content_for :title, title_message
     end
 
     # Returns the number of pages in the document
